@@ -24,12 +24,6 @@ def handleOnePage():
             id_ =    f'ContentPlaceHolder1_ctl03_rptData2_altitemTR_{i}'
         div_container = driver.find_element(By.ID,id_)
         text_ = div_container.text
-        # test_ = re.search(r"-?\d+\.\d+\s%",text_).group(1)
-        # print(test_)
-        # pattern = r"\(-?\d+ \. \d+\s %\)"
-        # print(text_)
-        # text_ = re.sub(pattern, '', text_)
-        # print(text_)
         text_arr = re.split(r'(\s+)',text_)
 
         text_arr = [ele for ele in text_arr if ' ' not in ele and '(' not in ele and ')' not in ele and ele]
@@ -54,12 +48,6 @@ while True:
                         id_ = f'ContentPlaceHolder1_ctl03_rptData2_altitemTR_{i}'
                     div_container = driver.find_element(By.ID,id_)
                     text_ = div_container.text
-                    # test_ = re.search(r"-?\d+\.\d+\s%",text_).group(1)
-                    # print(test_)
-                    # pattern = r"\(-?\d+ \. \d+\s %\)"
-                    # print(text_)
-                    # text_ = re.sub(pattern, '', text_)
-                    # print(text_)
                     text_arr = re.split(r'(\s+)',text_)
 
                     text_arr = [ele for ele in text_arr if ' ' not in ele and '(' not in ele and ')' not in ele and ele]
