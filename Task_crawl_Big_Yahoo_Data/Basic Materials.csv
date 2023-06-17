@@ -1,3 +1,4 @@
+Time,Stock Exchange,Name,Field,Offer Price,Total Offering Value,Initial Listing Price,MarketCap
 Symbol,Name,Price(Intraday),Change,%Change,Volume,Avg Vol(3 month),Market Cap,PE Ratio(TTM)
 BHP.F,BHP Group Limited,57.80,-0.40,-0.69%,80,48,208.004B,8.68
 BHP1.F,BHP Group Limited,29.09,-0.03,-0.10%,"1,523","5,433",207.206B,8.74
