@@ -1,4 +1,4 @@
-Time,Stock Exchange,Name,Field,Offer Price,Total Offering Value,Initial Listing Price,MarketCap
+Symbol,Name,Price(Intraday),Change,%Change,Volume,Avg Vol(3 month),Market Cap,PE Ratio(TTM)
 APC8.F,Apple Inc.,19.30,+0.40,+2.12%,300,42,2.739T,3.52
 APC.DE,Apple Inc.,169.68,-0.36,-0.21%,"69,903","73,057",2.693T,30.96
 APC.F,Apple Inc.,168.98,-0.86,-0.51%,"6,674","6,544",2.685T,30.78

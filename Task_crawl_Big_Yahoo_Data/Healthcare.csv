@@ -1,4 +1,4 @@
-Time,Stock Exchange,Name,Field,Offer Price,Total Offering Value,Initial Listing Price,MarketCap
+Symbol,Name,Price(Intraday),Change,%Change,Volume,Avg Vol(3 month),Market Cap,PE Ratio(TTM)
 BTL.SG,Baxter International Inc,41.30,+1.40,+3.51%,0,42,410.37B,N/A
 UNH.DE,UnitedHealth Group Incorporated,423.50,-8.00,-1.85%,454,363,399.674B,22.48
 LLY.DE,Eli Lilly and Company,413.60,-1.40,-0.34%,559,977,397.201B,71.07

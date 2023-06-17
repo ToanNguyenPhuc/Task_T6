@@ -1,4 +1,4 @@
-Time,Stock Exchange,Name,Field,Offer Price,Total Offering Value,Initial Listing Price,MarketCap
+Symbol,Name,Price(Intraday),Change,%Change,Volume,Avg Vol(3 month),Market Cap,PE Ratio(TTM)
 LFL.F,LATAM Airlines Group S.A.,0.3000,-0.0300,-9.09%,"2,600","5,541",181.331B,5.00
 UPAB.F,"United Parcel Service, Inc.",164.42,+1.22,+0.75%,512,26,143.335B,14.24
 SIEB.F,Siemens Aktiengesellschaft,85.50,+4.50,+5.56%,10,2,138.688B,22.74
