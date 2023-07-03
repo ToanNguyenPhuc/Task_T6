@@ -32,7 +32,7 @@ columns_name = ['name',
                 'Branche',
                 'Sektor',
                 'Subsektor']
-with open('BorserFrankfurk_listing.csv','a',newline='') as file:
+with open('ChungKhoanDuc.csv','a',newline='') as file:
     writer = csv.writer(file)
     writer.writerow(columns_name)
 def handleOnePage(name,ISIN):
@@ -57,7 +57,7 @@ for ii,ISIN in enumerate(ISINs):
     try: 
        handleOnePage(names[ii],ISIN)
     except:
-        with open('error.csv','a',newline='') as file:
+        with open('error_Xetra.csv','a',newline='') as file:
             writer = csv.writer(file)
             writer.writerow([ISIN])
 
